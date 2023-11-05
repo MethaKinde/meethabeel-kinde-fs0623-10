@@ -1,0 +1,168 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    background-color: #dce1e2;
+}
+
+/* CLASSI COMUNI */
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.bg-darkblue {
+    color: #eff6fd;
+    background-color: #222f3f;
+}
+
+.bg-blue {
+    color: #eff6fd;
+    background-color: #364759;
+}
+
+.bg-orange {
+    color: #eff6fd;
+    background-color: #f56600;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.py-1x2y {
+    padding: 0.7rem 2rem;
+}
+
+.py-1 {
+    padding: 1rem 0;
+}
+
+.pyleft {
+    padding-left: 20px;
+}
+
+.pybottom {
+    padding-bottom: 1rem;
+}
+
+.text-deco {
+    text-decoration: none;
+    color: #eff6fd;
+}
+
+.marg {
+    margin: 2.3rem;
+}
+
+.marg2 {
+    margin: 1.5rem;
+}
+
+.fontsz {
+    font-size: 1.5rem;
+}
+
+.dis-inblock {
+    display: inline-block;
+    margin: 20px;
+}
+
+.ridimensiona {
+    width: 315px;
+    height: 390px;
+}
+
+.ridimensiona2 {
+    width: 100%;
+    height: auto;
+}
+
+.ima-fix {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.linkfix {
+    font-size: initial;
+    font-weight: bold;
+    text-decoration: none;
+    color: #28839c;
+    padding: 1rem;
+    
+}
+
+/* HEADER */
+header nav ul li {
+    display: inline-block;
+    padding: 0.7rem 0;
+    margin: 0px 20px;
+}
+
+/* MAIN */
+
+main aside div {
+    background-image: url("../images/bg-image.png");
+    background-position: -10% 0%;
+    background-size: 95%;
+    color: #eff6fd;
+
+}
+
+main aside div h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 5rem;
+    padding-bottom: 1.8rem;
+}
+
+main aside div p {
+    padding-bottom: 3.5rem;
+    font-weight: bold;
+}
+
+/* main article section p {
+    font-size: 1.5rem;
+    display: inline-block;
+} */
+
+/* main article section div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+ */
+
+/* FOOTER */
+footer div a {
+    font-size: initial;
+    color: #eff6fd;
+    font-weight: bold;
+
+}
+
+footer div img {
+    width: 250px;
+    padding: 2.5rem;
+}
+
+
+/* PALETTI COLORI :
+
+    Main = -sfondo #dce1e2
+
+    Header = -blu scuro #222f3f
+             -blu #364759         
+
+    Main = -arancione #f56600
+           -verde #306e63
+
+    i links = #28839c
